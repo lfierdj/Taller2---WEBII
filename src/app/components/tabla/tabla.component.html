@@ -1,0 +1,48 @@
+<div class="container mt-5">
+  <h2 class="colorh2">Precio Disponible</h2>
+  <form class="mb-4">
+    <div class="form-row">
+      <div class="col">
+        <label for="minPrice" class="colorh2">Precio mínimo:</label>
+        <input
+          type="number"
+          name="minPrice"
+          [(ngModel)]="Preciomin"
+          class="form-control"
+          [ngModelOptions]="{ standalone: true }"
+        />
+      </div>
+      <div class="col">
+        <label for="maxPrice" class="colorh2">Precio máximo:</label>
+        <input
+          type="number"
+          name="maxPrice"
+          [(ngModel)]="Preciomax"
+          class="form-control"
+          [ngModelOptions]="{ standalone: true }"
+        />
+      </div>
+    </div>
+  </form>
+  @for (item of productos; track item) {
+    <div class="card" style="width: 400px">
+      <img class="card-img-top" src="{{item.imagen_url}}" alt="Card image" />
+      <div class="card-body">
+       
+        <h4 class="card-title">Nombre: {{ item.nombre }}</h4>
+        <p class="card-text">Precio: {{item.precio}}</p>
+        <button class="btn btn-primary" [routerLink]="['/detalles',item.id]">Ver mas detalles</button>
+        <button [routerLink]="['/editar-productos',item.id]" class="btn btn-primary">Editar</button>
+        <button (click)="eliminar(item.id)" class="btn btn-danger">Eliminar</button>
+      </div>
+    </div>
+    }
+    <button [routerLink]="['/agregarP']">Agregar un producto</button>
+
+    <button [routerLink]="['/carrito']" class="btn btn-success">Ir al carrito</button>
+
+    <button routerLink="regresar" class="btn btn-danger">Regresar</button>
+    <br />
+    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+  </div>
+

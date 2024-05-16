@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+h1 {
+    text-align: center;
+    color: #333;
+}
+.offer-info {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 8px;
+}
+.offer-info h2 {
+    color: #333;
+    margin-top: 0;
+}
+.offer-info p {
+    margin-bottom: 10px;
+    line-height: 1.6;
+}

@@ -1,0 +1,221 @@
+{
+  "users": [
+    {
+      "email": "usuario@yop.com",
+      "password": "$2a$10$aydj154BAtfe16uWIjnlKeHfx8qCNumKCku1Dlb9RC14ncdgrNsti",
+      "role": "user",
+      "id": 1
+    },
+    {
+      "email": "admin@yop.com",
+      "password": "$2a$10$ToB9gydfnu8uhRoEgSSjoOvjlaZ3ahDlB6mJCyM7WgJFG7HzFRw9G",
+      "role": "admin",
+      "id": 2
+    }
+  ],
+  "productos": [
+    {
+      "id": "1",
+      "nombre": "Base de maquillaje líquida",
+      "tipo": "Facial",
+      "marca": "Maybelline",
+      "tono": "Natural Beige",
+      "precio": 15.99,
+      "cantidad": 50,
+      "unidad": "ml",
+      "imagen_url": "https://media.istockphoto.com/id/2151690538/es/foto/beauty-face.jpg?s=1024x1024&w=is&k=20&c=Cil1KYXXjeRdzDx4zt2dyxKJLcyeLuGUvkFz4gJZs60="
+    },
+    {
+      "id": "2",
+      "nombre": "Paleta de sombras de ojos",
+      "tipo": "Ojos",
+      "marca": "Urban Decay",
+      "tono": "Naked",
+      "precio": 45.5,
+      "cantidad": 12,
+      "unidad": "g",
+      "imagen_url": "https://cdn.pixabay.com/photo/2019/10/18/07/28/eye-shadow-4558443_960_720.jpg"
+    },
+    {
+      "id": "3",
+      "nombre": "Lápiz labial mate",
+      "tipo": "Labial",
+      "marca": "MAC",
+      "tono": "Ruby Woo",
+      "precio": 20.75,
+      "cantidad": 4,
+      "unidad": "g",
+      "imagen_url": "https://cdn.pixabay.com/photo/2019/03/01/11/33/clamy-lipstick-4027732_960_720.jpg"
+    },
+    {
+      "id": "4",
+      "nombre": "Corrector de ojeras",
+      "tipo": "Facial",
+      "marca": "NARS",
+      "tono": "Custard",
+      "precio": 29.99,
+      "cantidad": 10,
+      "unidad": "ml",
+      "imagen_url": "https://cdn.pixabay.com/photo/2016/01/20/04/36/cosmetics-1150881_1280.jpg"
+    },
+    {
+      "id": "5",
+      "nombre": "Máscara de pestañas",
+      "tipo": "Ojos",
+      "marca": "L'Oréal",
+      "tipo_cepillo": "Volumen",
+      "precio": 12.49,
+      "cantidad": 8,
+      "unidad": "ml",
+      "imagen_url": "https://media.istockphoto.com/id/1460260461/es/foto/el-cepillo-de-maquillaje-limpio-rosa-para-r%C3%ADmel-se-encuentra-en-el-tubo-abierto-cerca-de-tubos.jpg?s=1024x1024&w=is&k=20&c=oQFVU-ecRKRrXBrtYVufoULQJRd7xpnciWeZ2j4GhO0="
+    },
+    {
+      "id": "6",
+      "nombre": "Polvo compacto",
+      "tipo": "Facial",
+      "marca": "Rimmel London",
+      "tono": "Transparente",
+      "precio": 10.99,
+      "cantidad": 10,
+      "unidad": "g",
+      "imagen_url": "https://images.contentstack.io/v3/assets/bltf10d43c9de06a4a3/blt4af0526f8ac4e2a9/61e6f17792df143501298204/Rimmel-London_Lasting_Finish_Compact_Foundation_001-Fair-Porcelain_3616303011208_open_xl.jpg?auto=webp"
+    },
+    {
+      "id": "7",
+      "nombre": "Rubor en crema",
+      "tipo": "Facial",
+      "marca": "NYX",
+      "tono": "Rose Petal",
+      "precio": 14.25,
+      "cantidad": 6,
+      "unidad": "g",
+      "imagen_url": "https://m.media-amazon.com/images/I/610NwT0XXRL._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+      "id": "8",
+      "nombre": "Gel para cejas",
+      "tipo": "Cejas",
+      "marca": "Anastasia Beverly Hills",
+      "tono": "Clear",
+      "precio": 22,
+      "cantidad": 5,
+      "unidad": "ml",
+      "imagen_url": "https://sumerlabs.com/sumer-app-90b8f.appspot.com/product_photos%2Fe0ccb93e8affeda5dfedc4d89883a881%2F6d789950-74dc-11ec-bbd5-a3584863829a?alt=media&token=ddcc19a6-2db7-4e19-876d-a8015ed87335"
+    },
+    {
+      "id": "9",
+      "nombre": "Delineador líquido",
+      "tipo": "Ojos",
+      "marca": "Stila",
+      "tono": "Intense Black",
+      "precio": 18.99,
+      "cantidad": 3,
+      "unidad": "ml",
+      "imagen_url": "https://i5.walmartimages.com/seo/Stila-Stay-All-Day-Waterproof-Liquid-Eyeliner-Intense-Black-0-02-Oz_b298205f-3f7f-47c7-b9ba-25d55b728f82.79e47e6204c7da9e723fa30c4c51714b.jpeg"
+    },
+    {
+      "id": "10",
+      "nombre": "Paleta de contouring",
+      "tipo": "Facial",
+      "marca": "Too Faced",
+      "precio": 39.99,
+      "cantidad": 1,
+      "unidad": "unidad",
+      "imagen_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfsSpLdnrDy1uVoZqivi4mK-4tQ0eZBIOMzDaWLG07CQ&s"
+    },
+    {
+      "id": "11",
+      "nombre": "Brillo de labios",
+      "tipo": "Labial",
+      "marca": "Fenty Beauty",
+      "tono": "Diamond Milk",
+      "precio": 24.5,
+      "cantidad": 8,
+      "unidad": "ml",
+      "imagen_url": "https://http2.mlstatic.com/D_NQ_NP_974073-MLU74512203648_022024-O.webp"
+    },
+    {
+      "id": "12",
+      "nombre": "Primer facial",
+      "tipo": "Facial",
+      "marca": "Smashbox",
+      "precio": 32,
+      "cantidad": 5,
+      "unidad": "ml",
+      "imagen_url": "https://www.sephora.com/productimages/sku/s2517746-main-zoom.jpg?imwidth=315"
+    },
+    {
+      "id": "13",
+      "nombre": "Esponja de maquillaje",
+      "tipo": "Accesorio",
+      "marca": "Beautyblender",
+      "precio": 20,
+      "cantidad": 2,
+      "unidad": "unidad",
+      "imagen_url": "https://www.fybeca.com/on/demandware.static/-/Sites-masterCatalog_FybecaEcuador/default/dwb431d224/images/large/100221663-ESPONJA-PARA-BASE-DE-MAQUILLAJE-BEAUTY-100-UNIDAD.jpg"
+    },
+    {
+      "id": "14",
+      "nombre": "Iluminador en polvo",
+      "tipo": "Facial",
+      "marca": "Becca",
+      "tono": "Champagne Pop",
+      "precio": 38.75,
+      "cantidad": 3,
+      "unidad": "g",
+      "imagen_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQt66-BK9RaxVyxNfIhiRdv3FyApA-DGMk26gemcbBvlw&s"
+    },
+    {
+      "id": "16",
+      "nombre": "Spray fijador de maquillaje",
+      "tipo": "Facial",
+      "marca": "Urban Decay",
+      "precio": 32.5,
+      "cantidad": 3,
+      "unidad": "ml",
+      "imagen_url": "https://m.media-amazon.com/images/I/51TF+4Z0rHL._SL1500_.jpg"
+    },
+    {
+      "id": "17",
+      "nombre": "Lápiz de cejas",
+      "tipo": "Cejas",
+      "marca": "Benefit Cosmetics",
+      "tono": "Medium Brown",
+      "precio": 21,
+      "cantidad": 6,
+      "unidad": "g",
+      "imagen_url": "https://marketeando.ec/wp-content/uploads/2020/12/Microblading-de-cejas-tipo-pluma-Color-Light-brown-marca-Benefit.jpg"
+    },
+    {
+      "id": "18",
+      "nombre": "Esmalte de uñas",
+      "tipo": "Uñas",
+      "marca": "OPI",
+      "tono": "Big Apple Red",
+      "precio": 12.25,
+      "cantidad": 7,
+      "unidad": "ml",
+      "imagen_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZtsXasrpWF_-G7k0VAkXY6tVHBCgslCGH0cDBCSeyaQ&s"
+    },
+    {
+      "id": "19",
+      "nombre": "Paleta de iluminadores",
+      "tipo": "Facial",
+      "marca": "Huda Beauty",
+      "precio": 55.99,
+      "cantidad": 1,
+      "unidad": "unidad",
+      "imagen_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuQ-gnz5wQ6G8XQtKb5KnMmNIKwhRq8Om-71--fFBvTg&s"
+    },
+    {
+      "id": "20",
+      "nombre": "Spray refrescante facial",
+      "tipo": "Facial",
+      "marca": "Mario Badescu",
+      "precio": 12.99,
+      "cantidad": 3,
+      "unidad": "ml",
+      "imagen_url": "https://m.media-amazon.com/images/I/71R5JDGskBL._SL1500_.jpg"
+    }
+  ]
+}
